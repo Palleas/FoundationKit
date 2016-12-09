@@ -1,0 +1,12 @@
+PODS:
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - SwiftyUserDefaults (~> 3.0)
+
+SPEC CHECKSUMS:
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: a0d0d97c5c443ec081e0a99774e1f3bcc31ac3e6
+
+COCOAPODS: 1.1.1
