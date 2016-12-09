@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://romain-pouclet.com"
   s.license      = "MIT"
   s.author       = { "Romain Pouclet" => "romain.pouclet@bdc.ca" }
-  s.source       = { :git => "https://github.com/Palleas/FoundationKit.git" }
+  s.source       = { :git => "git@github.com:Palleas/FoundationKit.git" }
   s.source_files = "FoundationKit/**/*.swift"
 end
