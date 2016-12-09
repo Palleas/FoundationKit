@@ -15,6 +15,10 @@ extension DefaultsKeys {
 
 final public class ContextManager {
 
+    public init() {
+
+    }
+
     public func launchCount() -> Int {
         return Defaults[.launchCount]
     }
