@@ -13,13 +13,13 @@ extension DefaultsKeys {
     static let launchCount = DefaultsKey<Int>("launchCount")
 }
 
-final class ContextManager {
+final public class ContextManager {
 
-    func launchCount() -> Int {
+    public func launchCount() -> Int {
         return Defaults[.launchCount]
     }
 
-    func tick() {
+    public func tick() {
         Defaults[.launchCount] += 1
     }
 }
